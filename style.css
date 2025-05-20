@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar do Weryck Kaio" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Olá, eu sou o Weryck Kaio_</p>
+        <h1>Estudante e Trabalhador</h1>
+        <p>Tenho 17 anos e sou estudante do 3º ano do Ensino Médio. Atualmente trabalho meio período em uma loja e já tive experiências em lanchonete e como servente de pedreiro. Estou sempre em busca de novos aprendizados e desafios!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">Organização</p>
+            <p class="badge bg-secondary">Proatividade</p>
+            <p class="badge bg-secondary">Trabalho em Equipe</p>
+            <p class="badge bg-secondary">Comunicação</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem representativa de um projeto de organização pessoal">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto de Organização Pessoal</h5>
+                        <p class="card-text">Desenvolvi um sistema simples para organizar minhas tarefas diárias e acompanhar meus estudos, otimizando meu tempo entre trabalho e escola.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem representativa de um ambiente de lanchonete">
+                    <div class="card-body">
+                        <h5 class="card-title">Experiência em Atendimento</h5>
+                        <p class="card-text">Durante minha experiência em uma lanchonete, colaborei para otimizar o fluxo de atendimento aos clientes e a organização do estoque, resultando em maior eficiência.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem representativa de um projeto de construção">
+                    <div class="card-body">
+                        <h5 class="card-title">Auxílio em Projetos de Construção</h5>
+                        <p class="card-text">Atuando como servente de pedreiro, tive a oportunidade de aprender sobre etapas da construção civil e a importância do trabalho em equipe para a conclusão de projetos.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeto de Organização Pessoal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto consiste em um método de organização pessoal que criei para gerenciar minhas responsabilidades diárias, como estudos, trabalho e outras atividades. O objetivo é maximizar a produtividade e garantir que todas as tarefas sejam concluídas de forma eficiente.</p>
+                    <p>Utilizei ferramentas simples como planilhas e aplicativos de lista de tarefas para categorizar as atividades, definir prioridades e acompanhar o progresso. A ideia é ter uma visão clara do que precisa ser feito e em qual prazo, evitando sobrecarga e otimizando o tempo disponível.</p>
+                    <p>A importância deste projeto reside na sua aplicação prática para um estudante e trabalhador como eu, que precisa equilibrar múltiplos compromissos. Ele me permite manter o foco, reduzir o estresse e alcançar meus objetivos acadêmicos e profissionais.</p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="Imagem representativa de um projeto de organização pessoal">
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-primary" data-bs-dismiss="modal">Fechar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Experiência em Atendimento</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Durante minha experiência em uma lanchonete, tive a oportunidade de aprimorar minhas habilidades de atendimento ao cliente e trabalho em equipe. Meu foco era garantir que os pedidos fossem processados de forma rápida e precisa, e que os clientes tivessem uma experiência positiva.</p>
+                    <p>Participei da organização do estoque, reposição de produtos e limpeza do ambiente, contribuindo para a manutenção da eficiência e higiene do local. Essas tarefas me ensinaram a importância da proatividade e da atenção aos detalhes em um ambiente de ritmo acelerado.</p>
+                    <p>Essa experiência foi fundamental para desenvolver minha capacidade de comunicação, resolução de problemas e adaptabilidade, características essenciais em qualquer ambiente de trabalho.</p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa de um ambiente de lanchonete">
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-primary" data-bs-dismiss="modal">Fechar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Auxílio em Projetos de Construção</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Como servente de pedreiro, atuei em diversas etapas de projetos de construção, aprendendo sobre a importância do planejamento, da segurança no trabalho e da colaboração entre os membros da equipe. Minhas responsabilidades incluíam preparar materiais, auxiliar na movimentação de equipamentos e manter o canteiro de obras organizado.</p>
+                    <p>Essa experiência me proporcionou um conhecimento prático sobre o setor da construção civil e a oportunidade de desenvolver resistência física e mental. Aprendi a valorizar o esforço conjunto para alcançar um objetivo comum e a importância de seguir instruções para garantir a qualidade e segurança do trabalho.</p>
+                    <p>Foi um período de grande aprendizado sobre disciplina, responsabilidade e a satisfação de ver um projeto ser construído do zero, resultado do trabalho de muitas pessoas.</p>
+                    <img src="img/projeto-3.png" alt="Imagem representativa de um projeto de construção" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-primary" data-bs-dismiss="modal">Fechar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-envelope"></i>
+            <a href="mailto:seuemail@example.com">Email</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Weryck Kaio Rodrigues de Oliveira Silva</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
